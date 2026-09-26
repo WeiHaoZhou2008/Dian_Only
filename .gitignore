@@ -1,0 +1,31 @@
+# 构建目录
+build/
+build*/
+cmake-build-*/
+
+# CMake 产物
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# 编译产物
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+
+# IDE
+.vscode/
+.idea/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+*.swp
+
+# 运行生成的数据（按需要保留示例可另说）
+sales.csv
